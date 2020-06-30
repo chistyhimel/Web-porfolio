@@ -1,0 +1,94 @@
+body{
+    font-family: 'Galada', cursive;
+    margin: 0px;
+
+}
+h1{
+    font-size: 50px;
+}
+h3{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+    color:dimgray;
+}
+.name-highlight{
+    color: orange;
+}
+.section-1{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.section-2{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.section-3{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: 160px;
+}
+.half-width1{
+    width: 40%;
+    margin: 70px 0px 0px 130px;
+}
+.half-width2{
+    width: 40%;
+    margin: 50px -20px 0px 0px;
+}
+img{
+    width: 600px;
+    float: left;
+}
+.button-1{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightSalmon,tomato);
+    padding: 8px 30px;
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.half-width4{
+    margin:130px 0px 0px 50px;
+    padding-right: 200px;
+}
+.sec-3-exp1{
+    border-radius: 5px;
+    padding: 30px 50px;
+    margin: 10px 100px 100px 80px ;
+    width: 600px;
+    height: 300px;
+    box-shadow: 10px 10px 40px grey;
+    border-image: linear-gradient(180deg,#FFCA1C,#FF458F);
+    border-image-slice: 1;
+    border-left: 10px solid;
+}
+.sec-3-exp2{
+    border-radius: 5px;
+    padding: 30px 50px;
+    margin: 10px 100px 100px 80px ;
+    width: 600px;
+    height: 300px;
+    box-shadow: 10px 10px 40px grey;
+    border-image: linear-gradient(180deg,rgba(0, 0, 255, 0.637),cyan);
+    border-image-slice: 1;
+    border-left: 10px solid;
+
+}
+footer p{
+    text-align: center;
+}
+.exp{
+    padding-left: 70px;
+    
+}
+
